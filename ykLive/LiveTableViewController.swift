@@ -116,14 +116,15 @@ class LiveTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        navigationController?.setNavigationBarHidden(true, animated: true)
+        let dest:ViewController = segue.destination as! ViewController
+        dest.live = list[(tableView.indexPathForSelectedRow?.row)!]
     }
-    */
+ 
 
 }

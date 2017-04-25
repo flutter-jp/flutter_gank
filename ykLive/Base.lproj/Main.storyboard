@@ -111,6 +111,7 @@
                                     <outlet property="nick" destination="ZT6-8w-WDC" id="ss1-Z2-tDr"/>
                                     <outlet property="pic" destination="Avi-iL-YQE" id="QFm-yr-O05"/>
                                     <outlet property="viewers" destination="FEO-Vo-RMt" id="qjL-0g-gp3"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Rqa-CK-Wm0"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -136,8 +137,35 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="RvK-jF-2sb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uh2-sq-XsE">
+                                <rect key="frame" x="166" y="323" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5n-SP-0Ve">
+                                <rect key="frame" x="0.0" y="20" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="goback"/>
+                                <connections>
+                                    <action selector="backTo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1zt-Wb-8JR"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uh2-sq-XsE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VSd-Bb-UUj"/>
+                            <constraint firstItem="uh2-sq-XsE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="9" id="XcA-Fv-TUO"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="background" destination="RvK-jF-2sb" id="KsG-eH-1xt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -165,5 +193,6 @@
     <resources>
         <image name="address-1" width="32" height="32"/>
         <image name="girl" width="900" height="1255"/>
+        <image name="goback" width="64" height="64"/>
     </resources>
 </document>
