@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDC11CAE1EAF1296003B350E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC11CAD1EAF1296003B350E /* AppDelegate.swift */; };
+		CDC11CB01EAF1296003B350E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC11CAF1EAF1296003B350E /* ViewController.swift */; };
+		CDC11CB31EAF1296003B350E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC11CB11EAF1296003B350E /* Main.storyboard */; };
+		CDC11CB51EAF1296003B350E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC11CB41EAF1296003B350E /* Assets.xcassets */; };
+		CDC11CB81EAF1296003B350E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC11CB61EAF1296003B350E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDC11CAA1EAF1296003B350E /* ykLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ykLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC11CAD1EAF1296003B350E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDC11CAF1EAF1296003B350E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDC11CB21EAF1296003B350E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDC11CB41EAF1296003B350E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDC11CB71EAF1296003B350E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDC11CB91EAF1296003B350E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC11CA71EAF1296003B350E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC11CA11EAF1296003B350E = {
+			isa = PBXGroup;
+			children = (
+				CDC11CAC1EAF1296003B350E /* ykLive */,
+				CDC11CAB1EAF1296003B350E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC11CAB1EAF1296003B350E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC11CAA1EAF1296003B350E /* ykLive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC11CAC1EAF1296003B350E /* ykLive */ = {
+			isa = PBXGroup;
+			children = (
+				CDC11CAD1EAF1296003B350E /* AppDelegate.swift */,
+				CDC11CAF1EAF1296003B350E /* ViewController.swift */,
+				CDC11CB11EAF1296003B350E /* Main.storyboard */,
+				CDC11CB41EAF1296003B350E /* Assets.xcassets */,
+				CDC11CB61EAF1296003B350E /* LaunchScreen.storyboard */,
+				CDC11CB91EAF1296003B350E /* Info.plist */,
+			);
+			path = ykLive;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC11CA91EAF1296003B350E /* ykLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC11CBC1EAF1296003B350E /* Build configuration list for PBXNativeTarget "ykLive" */;
+			buildPhases = (
+				CDC11CA61EAF1296003B350E /* Sources */,
+				CDC11CA71EAF1296003B350E /* Frameworks */,
+				CDC11CA81EAF1296003B350E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ykLive;
+			productName = ykLive;
+			productReference = CDC11CAA1EAF1296003B350E /* ykLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC11CA21EAF1296003B350E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiaomo;
+				TargetAttributes = {
+					CDC11CA91EAF1296003B350E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 86WZPAWRAE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDC11CA51EAF1296003B350E /* Build configuration list for PBXProject "ykLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC11CA11EAF1296003B350E;
+			productRefGroup = CDC11CAB1EAF1296003B350E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC11CA91EAF1296003B350E /* ykLive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC11CA81EAF1296003B350E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC11CB81EAF1296003B350E /* LaunchScreen.storyboard in Resources */,
+				CDC11CB51EAF1296003B350E /* Assets.xcassets in Resources */,
+				CDC11CB31EAF1296003B350E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC11CA61EAF1296003B350E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC11CB01EAF1296003B350E /* ViewController.swift in Sources */,
+				CDC11CAE1EAF1296003B350E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDC11CB11EAF1296003B350E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC11CB21EAF1296003B350E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDC11CB61EAF1296003B350E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC11CB71EAF1296003B350E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC11CBA1EAF1296003B350E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDC11CBB1EAF1296003B350E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC11CBD1EAF1296003B350E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86WZPAWRAE;
+				INFOPLIST_FILE = ykLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.xiaomo.ykLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDC11CBE1EAF1296003B350E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86WZPAWRAE;
+				INFOPLIST_FILE = ykLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.xiaomo.ykLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC11CA51EAF1296003B350E /* Build configuration list for PBXProject "ykLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC11CBA1EAF1296003B350E /* Debug */,
+				CDC11CBB1EAF1296003B350E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC11CBC1EAF1296003B350E /* Build configuration list for PBXNativeTarget "ykLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC11CBD1EAF1296003B350E /* Debug */,
+				CDC11CBE1EAF1296003B350E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC11CA21EAF1296003B350E /* Project object */;
+}
