@@ -5,8 +5,11 @@
 
 
 ## 截图
-![](https://image.xiaomo.info/swift/yk-lunacher.png)
 
+启动界面   
+![](https://image.xiaomo.info/swift/yk-luncher.png)
+
+app预览    
 ![](https://image.xiaomo.info/swift/yk-1.png)
 
 ![](https://image.xiaomo.info/swift/yk-2.png)
