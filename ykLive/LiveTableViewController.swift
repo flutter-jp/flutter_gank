@@ -21,6 +21,9 @@ class LiveTableViewController: UITableViewController {
         loadList()
         self.refreshControl = UIRefreshControl()
         refreshControl?.addTarget(self, action: #selector(loadList), for: .valueChanged)
+        
+        tableView.estimatedRowHeight = 600
+        tableView.rowHeight = UITableViewAutomaticDimension
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
