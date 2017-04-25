@@ -19,6 +19,7 @@
 		CDE3C2721EAF161700198692 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3C26D1EAF161700198692 /* Label.swift */; };
 		CDE3C2731EAF161700198692 /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3C26E1EAF161700198692 /* Live.swift */; };
 		CDE3C2741EAF161700198692 /* LiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3C26F1EAF161700198692 /* LiveStream.swift */; };
+		CDE3C2761EAF169300198692 /* YKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3C2751EAF169300198692 /* YKCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		CDE3C26D1EAF161700198692 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		CDE3C26E1EAF161700198692 /* Live.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
 		CDE3C26F1EAF161700198692 /* LiveStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveStream.swift; sourceTree = "<group>"; };
+		CDE3C2751EAF169300198692 /* YKCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				CDE3C26D1EAF161700198692 /* Label.swift */,
 				CDE3C26E1EAF161700198692 /* Live.swift */,
 				CDE3C26F1EAF161700198692 /* LiveStream.swift */,
+				CDE3C2751EAF169300198692 /* YKCell.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE3C2761EAF169300198692 /* YKCell.swift in Sources */,
 				CDE3C2701EAF161700198692 /* Creator.swift in Sources */,
 				CDE3C2691EAF156D00198692 /* LiveTableViewController.swift in Sources */,
 				CDE3C2731EAF161700198692 /* Live.swift in Sources */,
