@@ -19,6 +19,8 @@ class LiveTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         loadList()
+        self.refreshControl = UIRefreshControl()
+        refreshControl?.addTarget(self, action: #selector(loadList), for: .valueChanged)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -36,6 +38,7 @@ class LiveTableViewController: UITableViewController {
                 })
                 OperationQueue.main.addOperation {
                     self.tableView.reloadData()
+                    self.refreshControl?.endRefreshing()
                 }
             }
 //            dump(self.list)
