@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="600" id="ffB-HL-Vli">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="600" id="ffB-HL-Vli" customClass="YKTableViewCell" customModule="ykLive" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="600"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ffB-HL-Vli" id="cFN-jL-6gm">
@@ -74,6 +74,13 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="avator" destination="Hu9-UC-AlT" id="xCd-iq-D6X"/>
+                                    <outlet property="location" destination="cZN-gq-OQQ" id="ykw-61-nQJ"/>
+                                    <outlet property="nick" destination="ZT6-8w-WDC" id="ss1-Z2-tDr"/>
+                                    <outlet property="pic" destination="Avi-iL-YQE" id="QFm-yr-O05"/>
+                                    <outlet property="viewers" destination="FEO-Vo-RMt" id="qjL-0g-gp3"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

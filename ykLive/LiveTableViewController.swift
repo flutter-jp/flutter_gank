@@ -27,7 +27,20 @@ class LiveTableViewController: UITableViewController {
     }
     
     func loadList(){
-        Alamofire.request(url)
+        Alamofire.request(url).responseJSON{
+            response in
+            if let json = response.result.value {
+                let lives = LiveStream(fromDictionary: json as! [String : Any]).lives!
+                self.list = lives.map({ (live ) -> YKCell in
+                    return YKCell(portrait: live.creator.portrait, nick: live.creator.nick, location: live.city, viewers: live.onlineUsers, url: live.streamAddr)
+                })
+                OperationQueue.main.addOperation {
+                    self.tableView.reloadData()
+                }
+            }
+//            dump(self.list)
+            
+        }
     }
     
 
@@ -40,23 +53,26 @@ class LiveTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return list.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! YKTableViewCell
+        let currentLive = list[indexPath.row]
+        let url = URL(string: currentLive.portrait)
+        cell.avator.kf.setImage(with: url)
+        cell.pic.kf.setImage(with: url)
+        cell.location.text = currentLive.location
+        cell.nick.text = currentLive.nick
         return cell
     }
-    */
+ 
 
     /*
     // Override to support conditional editing of the table view.
