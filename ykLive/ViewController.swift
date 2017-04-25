@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setBg()
+        setPlayerView()
     }
     
     override func viewWillAppear(_ animated: Bool) {
