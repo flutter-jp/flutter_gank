@@ -21,6 +21,12 @@
 		CDE3C2741EAF161700198692 /* LiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3C26F1EAF161700198692 /* LiveStream.swift */; };
 		CDE3C2761EAF169300198692 /* YKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3C2751EAF169300198692 /* YKCell.swift */; };
 		CDEB0CDA1EAF21D100489823 /* YKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEB0CD91EAF21D100489823 /* YKTableViewCell.swift */; };
+		CDEB0D001EAF55F600489823 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0CFA1EAF55F600489823 /* IJKMediaFramework.framework */; };
+		CDEB0D011EAF55F600489823 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0CFB1EAF55F600489823 /* libbz2.tbd */; };
+		CDEB0D021EAF55F600489823 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0CFC1EAF55F600489823 /* libcrypto.a */; };
+		CDEB0D031EAF55F600489823 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0CFD1EAF55F600489823 /* librtmp.a */; };
+		CDEB0D041EAF55F600489823 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0CFE1EAF55F600489823 /* libssl.a */; };
+		CDEB0D051EAF55F600489823 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0CFF1EAF55F600489823 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +48,13 @@
 		CDE3C26F1EAF161700198692 /* LiveStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveStream.swift; sourceTree = "<group>"; };
 		CDE3C2751EAF169300198692 /* YKCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCell.swift; sourceTree = "<group>"; };
 		CDEB0CD91EAF21D100489823 /* YKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKTableViewCell.swift; sourceTree = "<group>"; };
+		CDEB0CFA1EAF55F600489823 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		CDEB0CFB1EAF55F600489823 /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
+		CDEB0CFC1EAF55F600489823 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		CDEB0CFD1EAF55F600489823 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		CDEB0CFE1EAF55F600489823 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		CDEB0CFF1EAF55F600489823 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.tbd; sourceTree = "<group>"; };
+		CDEB0D071EAF561100489823 /* ykLive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ykLive-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +62,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDEB0D031EAF55F600489823 /* librtmp.a in Frameworks */,
+				CDEB0D011EAF55F600489823 /* libbz2.tbd in Frameworks */,
+				CDEB0D051EAF55F600489823 /* libz.tbd in Frameworks */,
+				CDEB0D041EAF55F600489823 /* libssl.a in Frameworks */,
 				22CB548FACDE846781FFDE52 /* Pods_ykLive.framework in Frameworks */,
+				CDEB0D021EAF55F600489823 /* libcrypto.a in Frameworks */,
+				CDEB0D001EAF55F600489823 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +96,7 @@
 		CDC11CAC1EAF1296003B350E /* ykLive */ = {
 			isa = PBXGroup;
 			children = (
+				CDEB0D061EAF55FA00489823 /* framework */,
 				CDE3C26A1EAF161700198692 /* model */,
 				CDC11CAD1EAF1296003B350E /* AppDelegate.swift */,
 				CDC11CAF1EAF1296003B350E /* ViewController.swift */,
@@ -86,6 +106,7 @@
 				CDC11CB91EAF1296003B350E /* Info.plist */,
 				CDE3C2681EAF156D00198692 /* LiveTableViewController.swift */,
 				CDEB0CD91EAF21D100489823 /* YKTableViewCell.swift */,
+				CDEB0D071EAF561100489823 /* ykLive-Bridging-Header.h */,
 			);
 			path = ykLive;
 			sourceTree = "<group>";
@@ -101,6 +122,19 @@
 				CDE3C2751EAF169300198692 /* YKCell.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		CDEB0D061EAF55FA00489823 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				CDEB0CFA1EAF55F600489823 /* IJKMediaFramework.framework */,
+				CDEB0CFB1EAF55F600489823 /* libbz2.tbd */,
+				CDEB0CFC1EAF55F600489823 /* libcrypto.a */,
+				CDEB0CFD1EAF55F600489823 /* librtmp.a */,
+				CDEB0CFE1EAF55F600489823 /* libssl.a */,
+				CDEB0CFF1EAF55F600489823 /* libz.tbd */,
+			);
+			name = framework;
 			sourceTree = "<group>";
 		};
 		D3ACA0581A6290FFF8183A17 /* Frameworks */ = {
@@ -156,6 +190,7 @@
 					CDC11CA91EAF1296003B350E = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 86WZPAWRAE;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -375,11 +410,22 @@
 			baseConfigurationReference = 0FE7DAED3B9997846C7D9CEC /* Pods-ykLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 86WZPAWRAE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ykLive",
+				);
 				INFOPLIST_FILE = ykLive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ykLive",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.xiaomo.ykLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ykLive/ykLive-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -389,11 +435,21 @@
 			baseConfigurationReference = 3AE8420AEDD02103267DECA3 /* Pods-ykLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 86WZPAWRAE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ykLive",
+				);
 				INFOPLIST_FILE = ykLive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ykLive",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.xiaomo.ykLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ykLive/ykLive-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
