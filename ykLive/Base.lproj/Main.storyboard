@@ -22,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="600"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ffB-HL-Vli" id="cFN-jL-6gm">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="599"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Avi-iL-YQE">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="Avi-iL-YQE">
                                             <rect key="frame" x="-1" y="113" width="376" height="462"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
@@ -68,7 +68,7 @@
                                             <rect key="frame" x="86" y="65" width="20" height="20"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="Hu9-UC-AlT">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="Hu9-UC-AlT">
                                             <rect key="frame" x="8" y="27" width="60" height="60"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
@@ -126,6 +126,6 @@
     </scenes>
     <resources>
         <image name="address-1" width="32" height="32"/>
-        <image name="avatar" width="396" height="396"/>
+        <image name="girl" width="900" height="1255"/>
     </resources>
 </document>
