@@ -76,6 +76,7 @@ class LiveTableViewController: UITableViewController {
         cell.pic.kf.setImage(with: url)
         cell.location.text = currentLive.location
         cell.nick.text = currentLive.nick
+        cell.viewers.text = "\(currentLive.viewers)"
         return cell
     }
  
