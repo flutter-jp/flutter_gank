@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22CB548FACDE846781FFDE52 /* Pods_ykLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D07FD7B6CA794AC51801BEC /* Pods_ykLive.framework */; };
 		CDC11CAE1EAF1296003B350E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC11CAD1EAF1296003B350E /* AppDelegate.swift */; };
 		CDC11CB01EAF1296003B350E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC11CAF1EAF1296003B350E /* ViewController.swift */; };
 		CDC11CB31EAF1296003B350E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC11CB11EAF1296003B350E /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FE7DAED3B9997846C7D9CEC /* Pods-ykLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ykLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ykLive/Pods-ykLive.debug.xcconfig"; sourceTree = "<group>"; };
+		3AE8420AEDD02103267DECA3 /* Pods-ykLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ykLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-ykLive/Pods-ykLive.release.xcconfig"; sourceTree = "<group>"; };
+		5D07FD7B6CA794AC51801BEC /* Pods_ykLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ykLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC11CAA1EAF1296003B350E /* ykLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ykLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC11CAD1EAF1296003B350E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC11CAF1EAF1296003B350E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CB548FACDE846781FFDE52 /* Pods_ykLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				CDC11CAC1EAF1296003B350E /* ykLive */,
 				CDC11CAB1EAF1296003B350E /* Products */,
+				FE469CA004CA37E5E6FB25A9 /* Pods */,
+				D3ACA0581A6290FFF8183A17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = ykLive;
 			sourceTree = "<group>";
 		};
+		D3ACA0581A6290FFF8183A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D07FD7B6CA794AC51801BEC /* Pods_ykLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE469CA004CA37E5E6FB25A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FE7DAED3B9997846C7D9CEC /* Pods-ykLive.debug.xcconfig */,
+				3AE8420AEDD02103267DECA3 /* Pods-ykLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDC11CBC1EAF1296003B350E /* Build configuration list for PBXNativeTarget "ykLive" */;
 			buildPhases = (
+				AD30EC1B579F055926705FFF /* [CP] Check Pods Manifest.lock */,
 				CDC11CA61EAF1296003B350E /* Sources */,
 				CDC11CA71EAF1296003B350E /* Frameworks */,
 				CDC11CA81EAF1296003B350E /* Resources */,
+				BA9558F662E02C3AF00624E2 /* [CP] Embed Pods Frameworks */,
+				23332DAE249D17DC3C92FBDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23332DAE249D17DC3C92FBDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ykLive/Pods-ykLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD30EC1B579F055926705FFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9558F662E02C3AF00624E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ykLive/Pods-ykLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDC11CA61EAF1296003B350E /* Sources */ = {
@@ -257,6 +332,7 @@
 		};
 		CDC11CBD1EAF1296003B350E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FE7DAED3B9997846C7D9CEC /* Pods-ykLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 86WZPAWRAE;
@@ -270,6 +346,7 @@
 		};
 		CDC11CBE1EAF1296003B350E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE8420AEDD02103267DECA3 /* Pods-ykLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 86WZPAWRAE;
