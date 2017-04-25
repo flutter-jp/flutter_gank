@@ -8,4 +8,5 @@ target 'ykLive' do
   # Pods for ykLive
  pod 'Alamofire', '~> 4.4'
  pod 'SwiftyJSON'
+ pod 'Kingfisher'
 end
