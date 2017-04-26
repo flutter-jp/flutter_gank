@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var backToButton: UIButton!
     var live: YKCell!
     var playerView : UIView!
     @IBOutlet weak var loadingLabel: UILabel!
@@ -22,6 +23,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         setBg()
         setPlayerView()
+        btnToFront()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -46,6 +48,11 @@ class ViewController: UIViewController {
         _ = navigationController?.popViewController(animated: true)
         navigationController?.setNavigationBarHidden(false, animated: true)
     }
+    
+    func btnToFront(){
+        self.view.bringSubview(toFront: backToButton)
+    }
+    
     
     /// 添加模糊背景
     func setBg() {

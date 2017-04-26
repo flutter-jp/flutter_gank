@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		22CB548FACDE846781FFDE52 /* Pods_ykLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D07FD7B6CA794AC51801BEC /* Pods_ykLive.framework */; };
-		CD38CE981EAF71BF00928F31 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD38CE921EAF71BF00928F31 /* IJKMediaFramework.framework */; };
-		CD38CE991EAF71BF00928F31 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD38CE931EAF71BF00928F31 /* libbz2.tbd */; };
-		CD38CE9A1EAF71BF00928F31 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD38CE941EAF71BF00928F31 /* libcrypto.a */; };
-		CD38CE9B1EAF71BF00928F31 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD38CE951EAF71BF00928F31 /* librtmp.a */; };
-		CD38CE9C1EAF71BF00928F31 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD38CE961EAF71BF00928F31 /* libssl.a */; };
-		CD38CE9D1EAF71BF00928F31 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD38CE971EAF71BF00928F31 /* libz.tbd */; };
 		CDC11CAE1EAF1296003B350E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC11CAD1EAF1296003B350E /* AppDelegate.swift */; };
 		CDC11CB01EAF1296003B350E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC11CAF1EAF1296003B350E /* ViewController.swift */; };
 		CDC11CB31EAF1296003B350E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC11CB11EAF1296003B350E /* Main.storyboard */; };
@@ -27,18 +21,18 @@
 		CDE3C2741EAF161700198692 /* LiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3C26F1EAF161700198692 /* LiveStream.swift */; };
 		CDE3C2761EAF169300198692 /* YKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3C2751EAF169300198692 /* YKCell.swift */; };
 		CDEB0CDA1EAF21D100489823 /* YKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEB0CD91EAF21D100489823 /* YKTableViewCell.swift */; };
+		CDEB0D101EB01E0100489823 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0D0A1EB01E0100489823 /* IJKMediaFramework.framework */; };
+		CDEB0D111EB01E0100489823 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0D0B1EB01E0100489823 /* libbz2.tbd */; };
+		CDEB0D121EB01E0100489823 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0D0C1EB01E0100489823 /* libcrypto.a */; };
+		CDEB0D131EB01E0100489823 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0D0D1EB01E0100489823 /* librtmp.a */; };
+		CDEB0D141EB01E0100489823 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0D0E1EB01E0100489823 /* libssl.a */; };
+		CDEB0D151EB01E0100489823 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB0D0F1EB01E0100489823 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FE7DAED3B9997846C7D9CEC /* Pods-ykLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ykLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ykLive/Pods-ykLive.debug.xcconfig"; sourceTree = "<group>"; };
 		3AE8420AEDD02103267DECA3 /* Pods-ykLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ykLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-ykLive/Pods-ykLive.release.xcconfig"; sourceTree = "<group>"; };
 		5D07FD7B6CA794AC51801BEC /* Pods_ykLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ykLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD38CE921EAF71BF00928F31 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
-		CD38CE931EAF71BF00928F31 /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
-		CD38CE941EAF71BF00928F31 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		CD38CE951EAF71BF00928F31 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
-		CD38CE961EAF71BF00928F31 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		CD38CE971EAF71BF00928F31 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.tbd; sourceTree = "<group>"; };
 		CDC11CAA1EAF1296003B350E /* ykLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ykLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC11CAD1EAF1296003B350E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC11CAF1EAF1296003B350E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +49,12 @@
 		CDE3C2751EAF169300198692 /* YKCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCell.swift; sourceTree = "<group>"; };
 		CDEB0CD91EAF21D100489823 /* YKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKTableViewCell.swift; sourceTree = "<group>"; };
 		CDEB0D071EAF561100489823 /* ykLive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ykLive-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDEB0D0A1EB01E0100489823 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		CDEB0D0B1EB01E0100489823 /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
+		CDEB0D0C1EB01E0100489823 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		CDEB0D0D1EB01E0100489823 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		CDEB0D0E1EB01E0100489823 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		CDEB0D0F1EB01E0100489823 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.tbd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,32 +62,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD38CE9B1EAF71BF00928F31 /* librtmp.a in Frameworks */,
-				CD38CE991EAF71BF00928F31 /* libbz2.tbd in Frameworks */,
-				CD38CE9D1EAF71BF00928F31 /* libz.tbd in Frameworks */,
-				CD38CE9C1EAF71BF00928F31 /* libssl.a in Frameworks */,
+				CDEB0D131EB01E0100489823 /* librtmp.a in Frameworks */,
+				CDEB0D111EB01E0100489823 /* libbz2.tbd in Frameworks */,
+				CDEB0D151EB01E0100489823 /* libz.tbd in Frameworks */,
+				CDEB0D141EB01E0100489823 /* libssl.a in Frameworks */,
 				22CB548FACDE846781FFDE52 /* Pods_ykLive.framework in Frameworks */,
-				CD38CE9A1EAF71BF00928F31 /* libcrypto.a in Frameworks */,
-				CD38CE981EAF71BF00928F31 /* IJKMediaFramework.framework in Frameworks */,
+				CDEB0D121EB01E0100489823 /* libcrypto.a in Frameworks */,
+				CDEB0D101EB01E0100489823 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD38CE9E1EAF71C600928F31 /* framework */ = {
-			isa = PBXGroup;
-			children = (
-				CD38CE921EAF71BF00928F31 /* IJKMediaFramework.framework */,
-				CD38CE931EAF71BF00928F31 /* libbz2.tbd */,
-				CD38CE941EAF71BF00928F31 /* libcrypto.a */,
-				CD38CE951EAF71BF00928F31 /* librtmp.a */,
-				CD38CE961EAF71BF00928F31 /* libssl.a */,
-				CD38CE971EAF71BF00928F31 /* libz.tbd */,
-			);
-			name = framework;
-			sourceTree = "<group>";
-		};
 		CDC11CA11EAF1296003B350E = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +96,7 @@
 		CDC11CAC1EAF1296003B350E /* ykLive */ = {
 			isa = PBXGroup;
 			children = (
-				CD38CE9E1EAF71C600928F31 /* framework */,
+				CDEB0D161EB01E0500489823 /* framework */,
 				CDE3C26A1EAF161700198692 /* model */,
 				CDC11CAD1EAF1296003B350E /* AppDelegate.swift */,
 				CDC11CAF1EAF1296003B350E /* ViewController.swift */,
@@ -135,6 +122,19 @@
 				CDE3C2751EAF169300198692 /* YKCell.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		CDEB0D161EB01E0500489823 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				CDEB0D0A1EB01E0100489823 /* IJKMediaFramework.framework */,
+				CDEB0D0B1EB01E0100489823 /* libbz2.tbd */,
+				CDEB0D0C1EB01E0100489823 /* libcrypto.a */,
+				CDEB0D0D1EB01E0100489823 /* librtmp.a */,
+				CDEB0D0E1EB01E0100489823 /* libssl.a */,
+				CDEB0D0F1EB01E0100489823 /* libz.tbd */,
+			);
+			name = framework;
 			sourceTree = "<group>";
 		};
 		D3ACA0581A6290FFF8183A17 /* Frameworks */ = {
